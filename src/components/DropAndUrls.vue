@@ -28,7 +28,7 @@ export default Vue.extend({
             paramName: "files",
             url: "https://server.dumpme.app/upload",
             thumbnailWidth: 150,
-            maxFilesize: 10000,
+            maxFilesize: 500,
             timeout: 9999999,
             uploadMultiple: true,
             headers: { "Cache-Control": null, "X-Requested-With": null },
